@@ -11,6 +11,10 @@
     "string",
     "extensions"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibabasik/smart-contains"
+  },
   "peerDependencies": {
     "lodash": "4.x"
   },

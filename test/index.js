@@ -34,12 +34,12 @@ describe('smartContains', function () {
 		expect(smartContains(string, `${firstWord.substring(0, 2)} ${secondWord.substring(0, 2)}`)).to.equal(true)
 	})
 
-	it('should return false for null substring', function () {
-		expect(smartContains(string,null)).to.equal(false)
+	it('should return true for null substring', function () {
+		expect(smartContains(string,null)).to.equal(true)
 	})
 
-	it('should return false for empty substring', function () {
-		expect(smartContains(string, '')).to.equal(false)
+	it('should return true for empty substring', function () {
+		expect(smartContains(string, '')).to.equal(true)
 	})
 
 	it('should return false for null string', function () {
@@ -50,8 +50,8 @@ describe('smartContains', function () {
 		expect(smartContains('', string)).to.equal(false)
 	})
 
-	it('should return true for null string and substring', function () {
-		expect(smartContains(null, null)).to.equal(true)
+	it('should return false for null string and substring', function () {
+		expect(smartContains(null, null)).to.equal(false)
 	})
 
 

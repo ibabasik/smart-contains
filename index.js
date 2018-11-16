@@ -2,7 +2,7 @@ const _  = require('lodash');
 
 module.exports = function (str, sub) {
 	if (!sub){
-		return !str;
+		return !!str;
 	}
 	if (!str){
 		return false;
