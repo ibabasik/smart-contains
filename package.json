@@ -1,6 +1,6 @@
 {
   "name": "smart-contains",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find substring in another string independent of case and with some fuzzy logic",
   "main": "index.js",
   "scripts": {
